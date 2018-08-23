@@ -8,9 +8,9 @@ from botocore.client import Config
 
 now  = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-ACCESS_KEY_ID = 'AKIAJ7NYCIPIVI23S6NQ'							 # Key ID
-ACESSS_SECRETY_KEY = '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'  # Security Key
-BUCKET_NAME = 'q-tracker'                                        # Bucket requested in s3 to store data
+ACCESS_KEY_ID = 'xxxxxxxxxxxxxxxxxxxx'							 # Key ID
+ACESSS_SECRETY_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # Security Key
+BUCKET_NAME = 'bucketxxx'                                           # Bucket requested in s3 to store data
 
 s3 = boto3.resource(                                             # Connecting to S3 Bucket
 	's3',
@@ -19,11 +19,11 @@ s3 = boto3.resource(                                             # Connecting to
 	config = Config(signature_version='s3v4')
 )
 print("\nUploading files to S3...\n")
-source = '\\\\aeiserv\Company\David'						     	# Source root folder
+source = ''													     	# Source root folder
 for root, directory, files in os.walk(source):                   	# Walk throgh root folder
 	for file in files:
 		filepath = root + "\\" + file                            	# Concatinate root address with file name
-		if filepath.endswith(".accdb"):                          	# Find suffix of file requested
+		if filepath.endswith(".pdf"):                          	# Find suffix of file requested
 			print(file)
 			data = open(filepath,'rb')
 			directory = now + "/" + file
