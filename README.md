@@ -27,7 +27,7 @@ If not, visit [Amazon AWS S3 Docs](https://docs.aws.amazon.com/AmazonS3/latest/g
   
 ## Automation  
 
-[Mac OSX](https://blog.macsales.com/42196-macos-101-how-to-automate-tasks-on-your-mac)
+[Mac OS X](https://blog.macsales.com/42196-macos-101-how-to-automate-tasks-on-your-mac)
 
 [Windows](https://www.dummies.com/computers/pcs/how-to-create-a-task-to-run-a-program-in-windows-task-scheduler/)
  
