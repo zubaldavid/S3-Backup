@@ -22,7 +22,7 @@ If not, visit [Amazon AWS S3 Docs](https://docs.aws.amazon.com/AmazonS3/latest/g
   ```
   4. Edit line 26 with the desired file type.
   ```
-	if filepath.endswith(".pdf"):
+  if filepath.endswith(".pdf"):
   ```
   
 ## Automation  
@@ -32,4 +32,4 @@ If not, visit [Amazon AWS S3 Docs](https://docs.aws.amazon.com/AmazonS3/latest/g
 [Windows](https://www.dummies.com/computers/pcs/how-to-create-a-task-to-run-a-program-in-windows-task-scheduler/)
  
   
-# You're All Set!
+## You're All Set!
